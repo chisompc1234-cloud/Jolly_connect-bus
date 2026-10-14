@@ -3,25 +3,116 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="title" content="Jolly Connect">
+        <meta name="description" content="An E-Commerce Website for my best friend">
+        <meta name="author" content="Chisom">
         <title>Jolly Connect</title>
+        <style>
+
+            body {
+                background-color: bisque;
+                margin: 0;
+                padding: 15px;
+            }
+
+            h4 {
+                color: brown;
+            }
+
+            header {
+                position: sticky;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: bisque;
+                margin-top: 20px;
+                scroll-behavior: smooth;
+                width: 100%;
+                
+            }
+
+            input {
+                border: none;
+                margin-bottom: 15px;
+                margin-top: 15px;
+                height: clamp(30px, calc(30px + 2vw), 40px);
+                border-radius: 1.4rem;
+                text-align: center;
+                font-size: clamp(10px, calc(8px + 2vw), 20px);
+                cursor: pointer;
+                width: clamp(50vw, 90%, 600px);
+            }
+
+            #accessories {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, clamp(200px, 30vw, 300px));
+                gap: 20px;
+            }
+
+            img {
+                width: 100%;
+                border-radius: 15px;
+            }
+            
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                display: inline-block;
+                border: 2px solid black;
+                background: bisque;
+                box-shadow: 0 0 8px 4px black;
+                border-radius: 10px;
+            }
+        </style>
     </head>
     <body>
+        <header>
         <h1>Welcome to Jolly Connect</h1>
-        <a href="index.html">Home</a><br> 
-         Joel please <a href="aboutjc.html">Click here</a> to see about yourself
+       
+        </header>
+        <nav>
+            <a href="aboutjc.html">ABOUT PAGE</a>
+        </nav>
+        <main>
         <form>
-            <input type="search" placeholder="search Jolly Connect" size="40">
+            <input type="search" placeholder="search Jolly Connect" >
             <button type="submit">Search</button>
         </form>
         <button id="Cord">Cords</button>   <button id="Charger">Charger</button>   <button id="Earpods">Earpods</button>
         <button id="earpiece">Earpiece</button>
-        <img src="jc1.jpg" alt="Accessories" width="300" height="350">
-        <img src="jc2.jpg" alt="Accessories" width="300" height="350">
-        <img src="jc3.jpg" alt="Accessories" width="300" height="350">
-        <img src="jc4.jpg" alt="Accessories" width="300" height="350">
-        <img src="jc5.jpg" alt="Accessories" width="300" height="350">
-        <img src="jc6.jpg" alt="Accessories" width="300" height="350">
-        <h3>Buy from us</h3>
+
+        <figure id="accessories">
+        <img src="jc1.jpg" alt="Accessories" width="200" height="250" id="accessories1">
+        <img src="jc2.jpg" alt="Accessories" width="200" height="250" id="accessories2">
+        <img src="jc3.jpg" alt="Accessories" width="200" height="250" id="accessories3">
+        <img src="jc4.jpg" alt="Accessories" width="200" height="250" id="accessories4">
+        <img src="jc5.jpg" alt="Accessories" width="200" height="250" id="accessories5">
+        <img src="jc6.jpg" alt="Accessories" width="200" height="250" id="accessories6">
+        <figcaption id="phone-accessories">Phone Accessories</figcaption>
+        </figure>
         <p>Click <button id="here">Here</button> to buy from us</p>
+        </main>
+        <aside>
+            <h4><b>Learn more.....</b></h4>
+            <details>
+                <summary>Privacy Policy</summary>
+                <p>Jolly Connect requires users to respect it's privacy and avoid invasion of it's 
+                    privacy. So as such, being a multinatonal company, it holds account for all transactions.<br>
+                    Thank you all, thou art highly welcome.
+                </p>
+            </details>
+            <details>
+                <summary>List of Siblings</summary>
+                <ul>
+                    <li>Emmanuel Nwachukwu</li>
+                    <li>Daniel Nwachukwu</li>
+                    <li>Samuel Nwachukwu</li>
+                    <li>Ruth Nwachukwu</li>
+                </ul>
+            </details>
+        </aside>
+            &copy; <i>Jolly_Connect_2026</i>
+        </footer>
     </body>
 </html>

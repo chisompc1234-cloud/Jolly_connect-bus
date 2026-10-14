@@ -1,0 +1,27 @@
+Another Proud Upload by CracksHash.com
+==================================================
+
+Instructions :-
+
+0. Extract the archive.
+1. Install the program from the given "setup.exe"
+2. Wait for it to get installed fully. 
+3. Boom! Now you can use the program without any interruptions.(It's Pre-Cracked lol)
+4. That's it, Enjoy now ;)
+
+
+
+
+
+Note - problem about error 1603 in case show up just uninstall the aspNetCore/dotNetCore and run the setup.exe
+
+
+Virus Total links -
+Setup - https://www.virustotal.com/gui/file/c0f0e9d93813fd43f8f89264049a9da3d77decce0843950e542374d7fcec90bd/detection
+
+Hybrid-
+Setup - https://www.hybrid-analysis.com/sample/c0f0e9d93813fd43f8f89264049a9da3d77decce0843950e542374d7fcec90bd
+
+
+
+>>>>>>>>> CracksHash.com <<<<<<<<<<
